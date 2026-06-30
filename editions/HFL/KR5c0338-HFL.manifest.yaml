@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0338/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0338/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大丹篇
+  date: '2015-08-29 00:56:16.907979'
+  source:
+    repository: kanripo
+    path: KR5c0338
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0338_000-HFL.yaml, hash: 'sha256:85186c2781270f26cd2f537d5f92032a788d581e4acb403b1fa887d74af70220'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0338_000-HFL.markers.yaml, hash: 'sha256:4fc755517aa57032e9061bab9c92a0ce81b7e92dbc79e3050b60858a739d271e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0338_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2364
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6738bc1994705a4131c045a656177e2452883a67f51e7ca8f387b69d34a2d535
